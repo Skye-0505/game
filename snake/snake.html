@@ -1,0 +1,38 @@
+<!doctype html>
+<head>
+	<meta charset="UTF-8">
+	<title>贪吃蛇</title>
+	<link rel="stylesheet" href="snake.css">
+</head>
+<body>
+	<div class="startpage" id='startpage'>
+		<div class="title" id='title'></div>
+		<div class="startBtn" id="startBtn"></div>
+	</div>
+	
+	<div class="wrapper" id='wrapper'>
+		<div class="left">
+			<img src="img/pause.png" id='startP'>
+		</div>
+		<div class="main">
+			<div class="header">
+				<div class="score">
+					分 数:
+					<span id="score">0</span>
+				</div>
+			</div>
+			<div class="content" id="content"></div>
+		</div>
+	</div>
+
+	<div class="loser" id="loser">
+		<div class="con">
+			<div class="close" id='close'></div>
+			<span class="loserscore">最高分数：
+				<span id="lscore"></span>
+			</span>
+		</div>
+	</div>
+	<script type="text/javascript" src="snake.js"></script>
+</body>
+</html>

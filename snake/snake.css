@@ -1,0 +1,127 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+.startpage{
+	z-index:99;
+	width:100%;
+	height:100%;
+	position:fixed;
+	top:0px;
+	left:0px;
+	background-image:url(img/bjt.png);
+	background-size:100% 100%;
+}
+.startpage .title{
+	width:400px;
+	height:200px;
+	background-image:url(img/title.png);
+	background-size:100% 100%;
+	position:absolute;
+	top:20%;
+	left:50%;
+	margin-left:-200px;
+}
+.startpage .startBtn{
+	width:170px;
+	height:60px;
+	background-image:url(img/start.png);
+	background-size:100% 100%;
+	position:absolute;
+	left:50%;
+	top:60%;
+	margin-left:-85px;
+	cursor:pointer;
+}
+
+.wrapper{
+	width:100%;
+	height:100%;
+	position:relative;
+}
+.wrapper .left{
+	width:24%;
+	height:100%;
+	position:fixed;
+}
+.wrapper .left img{
+	position:absolute;
+	left:30px;
+	top:30px;
+	display:none;
+}
+.wrapper .main{
+	position:fixed;
+	left:25%;
+	width:50%;
+	height:90%;
+}
+.wrapper .main .header{
+	width:100%;
+	height:80px;
+	text-align:center;
+}
+.wrapper .main .header .score{
+	line-height:80px;
+	font-weight:bolder;
+	font-size:20px;
+	color:#fff;
+}
+.wrapper .main .content{
+	width:91%;
+	height:50%;
+	background-image:url(img/td2.png);
+	background-size:cover;
+	position:absolute;
+	left:5%;
+	top:34%;
+}
+
+.loser{
+	position:absolute;
+	width:100%;
+	height:100%;
+	background-color:rgba(0,0,0,0.3);
+	/*display:none;*/
+}
+.loser .con{
+	width:400px;
+	height:270px;
+	position:fixed;
+	left:50%;
+	top:50%;
+	margin-left:-200px;
+	margin-top:-150px;
+	background-image:url(img/stop.png);
+	border-radius:30px;
+}
+.loser .con .close{
+	width:40px;
+	height:40px;
+	background-image:url(img/close.png);
+	background-size:cover;
+	position:absolute;
+	right:3px;
+	top:2px;
+	cursor:pointer;
+}
+.loser .con .loserscore{
+	position:absolute;
+	line-height:150px;
+	font-size:30px;
+	font-weight:bolder;
+	color:#fff;
+	left:10%;
+}
+.wrapper .main .content .food{
+	background-image:url(img/apple.png);
+	background-size:100% 100%;
+}
+.wrapper .main .content .head{
+	background-image:url(img/shead.png);
+	background-size:100% 100%;
+}
+.wrapper .main .content .body{
+	background-image:url(img/sbody.png);
+	background-size:100% 100%;
+}
